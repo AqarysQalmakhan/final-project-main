@@ -217,6 +217,7 @@ header{
     animation-fill-mode: forwards;
 }
 .app-btn{
+    z-index: 2;
     display: flex;
     height: 54px;
     gap: 32px;
@@ -276,6 +277,7 @@ header{
     filter: blur(150px);
 }
 .circle-3{
+    z-index: 0;
     background-color: #581C87;
     height: 500px;
     width: 500px;
